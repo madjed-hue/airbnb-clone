@@ -1,0 +1,39 @@
+.banner {
+    background-image: url("../images/home-banner.jpg")  ;
+    height: 50vh;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner__info {
+    background-color: #000;
+    color: #f9f9f9;
+    padding: 25vh 50px 40px;
+    width: 300px;
+}
+.banner__info>button{
+    background-color: #ff7779;
+    color: #f9f9f9;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner__info>button:hover{
+    background-color: #f9f9f9;
+    color: #ff7779;
+}
+.banner__info h5{
+    margin-top: 10px;
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+.banner__searchButton{
+    background-color: #f9f9f9 !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
